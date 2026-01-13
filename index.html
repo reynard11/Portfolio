@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+
+  <!-- Link to external CSS -->
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+
+  <header>
+    <nav>
+      <div class="portfolio_Title">Reynard
+      </div>
+      <ul class="navlinks">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about_main">About</a></li>
+        <li><a href="#featured-work">Works</a></li>
+        <li><a href="#skills_main">Skills</a></li>
+        <li><a href="#">Contacts</a></li>
+      </ul>
+      <div class="hamburger">
+        <i class="fa-solid fa-bars bars"></i>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <div class="main_container">
+        <h1 class="creative">Creative Developer</h1>
+        <p class="craf_taughts">Crafting digital experiences where creativity meets code. Transforming ideas into
+          interactive realities.</p>
+        <div class="btnWork">
+          <button class="viewWork">View my work</button>
+          <button class="getTouch">Get in touch</button>
+        </div>
+        <center>
+          <i class="fa-solid fa-arrow-down"></i>
+        </center>
+      </div>
+    </section>
+
+    <section>
+      <div id="about_main">
+        <h1 class="about_child">About Me</h1>
+        <img class="img" src="Images/rey.jpg">
+        <div class="child_taught">
+          <p class="child_parag">Hi, I'm Reynard Cayetano, a 25 years old aspiring web and app developer from Tunasan,
+            Muntinlupa. My journey into tech might not be conventional, but it's
+            driven by passion and determination. <br> <br>
+            I previously worked in a factory, where I learned the value of hard work, attention to detail, and
+            problem-solving. Those experiences taught me that with dedication, I can build anything I set my mind
+            to—whether it's on a production line or in lines of code. <br> <br>
+            Let's build something amazing together.
+          </p>
+          <div id="icon-container">
+            <a href="https://github.com"> <i class="fa-brands fa-github"></i></a>
+            <a href="https://facebook.com"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://linked.com"> <i class="fa-brands fa-linkedin"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills-set">
+      <div id="skills_main">
+        <h1 class="skills-container">Skills & <br> Expertise</h1>
+        <div class="frontEnd-skills">
+          <h2 id="skill_name">Frontend</h2>
+          <ul class="list_">
+            <li> React</li>
+            <li> Vite</li>
+            <li> Bootstrap</li>
+            <li> Sass</li>
+          </ul>
+        </div>
+        <div class="techstack-skills">
+          <h2 id="skill_name">techStack</h2>
+          <ul class="list_">
+            <li> JavaScript</li>
+            <li> kotlin</li>
+            <li> Python</li>
+            <li> Php</li>
+            <li> Node.js | Express.js</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- End of Skills_set -->
+    <div id="featured-work">
+      <h1 class="featured">Featured Work</h1>
+
+      <h3 id="showcase">our latest projects and showcase</h3>
+      <div id="featured-showcase">
+        <h1 id="maintenance">🚀</h1>
+        <h2 id="no-featured">No Featured Work Yet</h2>
+        <br>
+        <p id="featured-parag">We're currently working on some amazing projects. Check back soon to see what we've been
+          building! ⚠</p>
+        <ul class="list_coming">
+          <li class="coming">Coming Soon!</li>
+        </ul>
+      </div>
+    </div>
+    <!-- End of Featured Work -->
+    <div id="contact_container">
+      <h1 id="contact_name">Contacts</h1>
+      <div id="contact_box">
+        <h2 id="contact_get">Get in touch</h2>
+        <p id="contact_parag">Have a project in mind? Let's collaborate and create something amazing together.</p>
+        <form id="contact_form" action="" method="post">
+          <label id="name_label">Name</label>
+          <input type="text" placeholder="Your name" name="Name" id="textBox1" required />
+          <label id="email_label">Email</label>
+          <input type="email" placeholder="your_email@gmail.com" name="Name" id="textBox2" required />
+          <label id="messageBox">Message</label>
+          <textarea id="text_area" placeholder="Your message here!" required></textarea>
+          <button id="btnSubmit" type="submit">Submit</button>
+        </form>
+      </div>
+    </div>
+  </main>
+<center>
+  <footer>
+    <p id="copy">© 2026 Reynard | All Rights Reserved</p>
+  </footer>
+</center>
+
+  <!-- Link to external JavaScript -->
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/gsap@3/dist/gsap.min.js"></script>
+  <script src="gsap.js"></script>
+</body>
+
+</html>
